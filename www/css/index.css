@@ -37,6 +37,12 @@ h1 {
     -webkit-animation:spin 2s linear infinite;
 }
 
+#Logo img {
+
+    width:256px;
+    height:256px;
+}
+
 #loading {
     width:100%;
     font-size:30px;

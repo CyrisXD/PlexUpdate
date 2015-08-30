@@ -8,7 +8,7 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+        <title>Plex Updater</title>
     </head>
     <body onload="onLoad()">
 
@@ -33,7 +33,7 @@
             //
             function onDeviceReady() {
                 setTimeout(function () { navigator.app.exitApp(); }, 5000);
-                ifrm = document.createElement("IFRAME");
+                ifrm = document.createElement("iframe");
                 ifrm.setAttribute("src", "http://192.168.1.110:32400/library/sections/1/refresh");
                 ifrm.style.width = 1+"px";
                 ifrm.style.height = 1+"px";
